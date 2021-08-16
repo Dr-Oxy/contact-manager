@@ -1,0 +1,150 @@
+/* ContactList  Component*/
+.list-container {
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .list-container {
+    width: 765px;
+    margin: 20px auto;
+  }
+}
+
+.list-container .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading button {
+  border: none;
+  background-color: rgb(26, 96, 187);
+  color: rgba(255, 255, 255, 0.858);
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.list-container h2 {
+  margin-bottom: 15px;
+}
+
+/* Contact card Component  */
+
+.contact-ls {
+  background: #f3f3f4;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.contact-profile {
+  display: flex;
+  align-items: center;
+}
+
+.contact-profile .avatar {
+  margin-right: 15px;
+  align-self: flex-start;
+}
+
+.list-container .icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contact-details {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contact-details .name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contact-details .phone {
+  margin: 6px 0;
+}
+
+.icons .card-btn {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+}
+
+.card-btn span {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.btn-edit {
+  background-color: rgb(26, 96, 187);
+  color: rgba(255, 255, 255, 0.858);
+  text-decoration: none;
+}
+
+.del-btn {
+  margin-left: 15px;
+  background-color: red;
+  color: rgba(255, 255, 255, 0.858);
+}
+
+/* Contact Details Component */
+.detail-wrap {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+
+.detail-wrap .card {
+  border: 1px rgb(187, 187, 187) solid;
+  height: fit-content;
+}
+
+.detail-wrap .card .card-img {
+  width: 18rem;
+  height: 18rem;
+  background-color: darkblue;
+}
+
+.detail-wrap .card .card-body {
+  padding: 10px 15px;
+}
+
+.detail-wrap .card .card-body p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.detail-wrap .card .card-body .name {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.detail-wrap .card .card-body .phone,
+.detail-wrap .card .card-body .email {
+  font-size: 14px;
+  color: dimgrey;
+}
+
+.detail-wrap button {
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: rgb(26, 96, 187);
+  color: rgba(255, 255, 255, 0.858);
+  margin-top: 20px;
+  padding: 10px 25px;
+  width: 100px;
+}

@@ -1,0 +1,47 @@
+.form-wrapper h2 {
+  margin: 20px;
+}
+
+.contact-form {
+  padding: 0 20px;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: rgb(155, 150, 150);
+}
+
+.form-input {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+.contact-form button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(26, 96, 187);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+@media screen and (min-width: 800px) {
+  .form-wrapper {
+    width: 765px;
+    margin: 20px auto;
+  }
+
+  .contact-form button {
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 15px 25px;
+    width: 100px;
+  }
+}
